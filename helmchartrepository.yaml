@@ -1,0 +1,8 @@
+apiVersion: helm.openshift.io/v1beta1
+kind: HelmChartRepository
+metadata:
+  name: microsoft-defender
+spec:
+  name: Microsoft Defender for Endpoint
+  connectionConfig:
+    url: https://zeeshan1995.github.io/mdatp-helm-charts
